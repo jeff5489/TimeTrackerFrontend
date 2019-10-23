@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Time Tracker</title>
+    
+</head>
+
+<body>
+    <header class="">
+        <h1 class="centered">Time Tracker</h1>
+    </header>
+    
+    <p>Post</p>
+    Post ID: <input type="text" id="postTPId">
+    Activity: <input type="text" id="postTPActivityType">
+    <button onclick="post()">postTimePeriod</button>
+
+    <p>Delete</p>
+    Delete ID: <input type="text" id="deleteId">
+    <button onclick="deleteTP()">Submit</button>
+
+    <p>Put</p>
+    Post ID: <input type="text" id="putTPId">
+    Activity: <input type="text" id="putTPActivityType">
+    <button onclick="put()">putTimePeriod</button>
+
+    <p>Get all time periods</p>
+    <button onclick="getTimePeriods()">Submit</button>
+    <div id="getResults"></div>
+
+    <p>Get one time period</p>
+    Get ID: <input type="text" id="getId">
+    <button onclick="getOneTimePeriod()">Submit</button>
+    <div id="divForOne"></div>
+
+    <div>
+        <div>
+            <h3 class="centered">Activity Sums below</h3>
+            <div id="activitySumDiv">
+
+            </div>
+        </div>
+        <div>
+            <h3 class="centered">Time Period tabs appear below</h3>
+            <div id="buttonsHere"></div>
+        </div>
+    </div>
+
+    <script src="getTimePeriod.js"></script>
+    <script src="postTimePeriod.js"></script>
+    <script src="deleteTimePeriod.js"></script>
+    <script src="putTimePeriod.js"></script>
+    <script src="timePeriodButtons.js"></script>
+
+</body>
+</html>

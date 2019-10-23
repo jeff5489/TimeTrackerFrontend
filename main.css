@@ -1,0 +1,38 @@
+.border {
+    border: 2px;
+    border-style: solid;
+    padding: 2px;
+}
+.centered{
+    text-align: center;
+}
+
+#tPStyle{
+    border: 2px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-style: solid;
+    padding: 2px;
+    /* display: inline; */
+}
+
+#buttonsHere{
+    display: inline;
+}
+
+#blue{
+    background-color: blue;
+}
+.activityButton{
+
+}
+
+.grid{
+    /* display:grid; */
+    /* display: inline-grid; */
+}
+
+#activitySumDiv{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
